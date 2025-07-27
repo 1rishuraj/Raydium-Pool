@@ -45,7 +45,7 @@ function App() {
             <WalletModalProvider>
               <TopBar />
               <div className="h-[calc(100vh-80px)] flex items-center justify-center">
-                <div className="mb-6">
+                <div className="mb-4">
                   <div className="text-5xl text-center text-white font-bold">
                     Solana Token Launchpad
                   </div>
