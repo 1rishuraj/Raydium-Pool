@@ -374,7 +374,7 @@ const Pool = () => {
       let poolKeys = data.poolKeys
 
       // Find the Associated Token Account (ATA) for LP mint owned by your wallet:
-
+      console.log(data.poolInfo.lpMint.toBase58()+" LP MINT")
       const ata = await getAssociatedTokenAddress(new PublicKey(data.poolInfo.lpMint.address), wallet.publicKey)
 
       // Get token account balance:
